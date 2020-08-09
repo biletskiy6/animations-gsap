@@ -16,21 +16,70 @@
 
     <link rel="stylesheet" href="css/normalize.min.css" />
     <link rel="stylesheet" href="css/main.css" />
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/0.7.8/pace.min.js"></script>
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
 
 <body>
-    <div id="overlay-1">
+
+    <div class="global">
+        <div class="intro">
+            <div class="img"></div>
+            <div class="title">
+                <p>Lake & Mountains</p>
+
+                <p>Lake district native</p>
+            </div>
+        </div>
+        <div class="blank"></div>
+
+        <div class="first">
+            <div class="first-number"></div>
+            <div class="first-image">
+                <img src="https://source.unsplash.com/random" alt="" class="first-background-image">
+            </div>
+            <div class="first-text">
+                <p>The Lake District Lorem, ipsum.</p>
+            </div>
+            <div class="first-title">
+                <p>Inspiration</p>
+            </div>
+            <div class="second-number"></div>
+        </div>
+
+        <div class="second">
+            <div class="second-text">
+                <p>The Lake District Lorem, ipsum.</p>
+            </div>
+        </div>
+
+        <div class="footer-container">
+            <div class="footer">
+                <p>Contact</p>
+                <ul>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                    <li>test</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- <div id="overlay-1">
         <h1>Loading...</h1>
-        <!-- <p>Loading</p> -->
+
     </div>
     <div id="overlay-2">
 
-        <!-- <p>Loading</p> -->
-    </div>
+    </div> -->
 
-    <header class="header">
+
+    <div class="pointer"></div>
+    <!-- <div class="pointer pointer-2"></div> -->
+
+    <!-- <header class="header">
         <div class="header-top">
             <a href="#" class="logo">Logo</a>
             <nav class="menu">
@@ -97,46 +146,24 @@
                 <a href="#" class="project-link">See our case</a>
             </div>
         </div>
-    </section>
+    </section> -->
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/pace/0.7.8/pace.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/jquery-bez@1.0.11/lib/jquery.bez.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https:////cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"
         integrity="sha512-A98SmLRZISk4eIxQBeCm8k0jAcwN3A3lBx4hr7baoMpV1VpxcxlZIhi5fJIZN50sQ5RlCzx8yV+Voy2cR6x0aA=="
         crossorigin="anonymous"></script>
-    <script>
-        window.jQuery ||
-            document.write(
-                '<script src="js/vendor/jquery-1.11.2.min.js"><\/script>'
-            );
 
-    </script>
 
     <script src="js/main.js"></script>
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-        (function (b, o, i, l, e, r) {
-            b.GoogleAnalyticsObject = l;
-            b[l] ||
-                (b[l] = function () {
-                    (b[l].q = b[l].q || []).push(arguments);
-                });
-            b[l].l = +new Date();
-            e = o.createElement(i);
-            r = o.getElementsByTagName(i)[0];
-            e.src = "//www.google-analytics.com/analytics.js";
-            r.parentNode.insertBefore(e, r);
-        })(window, document, "script", "ga");
-        ga("create", "UA-XXXXX-X", "auto");
-        ga("send", "pageview");
-
-    </script>
 </body>
 
 </html>
